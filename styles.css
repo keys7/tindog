@@ -1,0 +1,144 @@
+h1 {
+font-family: 'Lobster', cursive;
+  font-size: 4.5rem;
+  line-height: 1.5;
+  margin-top: 15px;
+  color: white;
+}
+h3{
+  font-weight: bolder;
+}
+h2{
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.8;
+}
+#title{
+  background-color: #ff4c68;
+}
+.navbar{
+  padding-bottom: 3.5rem;
+}
+.container-fluid{
+  padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 9%;
+}
+.navbar-brand{
+  font-size: 3.5rem;
+  font-family: "Ubuntu";
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.nav-item{
+  padding-right: 50px;
+}
+.btn{
+  margin:25px 15px 0 0;
+}
+.iphone6{
+  margin-top: 40px;
+  transform: rotate(25deg);
+  width: 20rem;
+  margin-left: 5rem;
+  position: absolute;
+  right: 30%;
+  margin-bottom: 3rem;
+}
+#features{
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+}
+.features-box{
+  text-align: center;
+  padding-top: 2rem;
+}
+.p-1{
+  margin: 0 3.5rem;
+}
+.fa-circle-check,.fa-bullseye,.fa-heart{
+  font-size: 4rem;
+  padding-bottom: 2%;
+  color: #ef8172;
+}
+.fa-circle-check:hover{
+  color: #ff4c68;
+}
+.fa-bullseye:hover{
+  color: #ff4c68;
+}
+.fa-heart:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.img{
+  border-radius: 100%;
+  width: 6rem;
+  margin: 3%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img{
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+.card-header{
+  text-align: center;
+}
+#pricing{
+  padding: 100px;
+  text-align:center;
+}
+.row{
+  padding: 3% 2%;
+}
+@media (max-width: 1198px){
+  #title{
+    text-align: center;
+  }
+  .iphone6{
+    transform: rotate(0);
+    position: static;
+    margin: 30px auto;
+  }
+}
+#cta{
+  padding: 5% 10% 3% 10%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+.h3-info{
+  color: white;
+  font-size: 270%;
+  margin: auto;
+}
+.btn-1{
+  margin: 10% 3% 0 3%;
+}
+
+#footer{
+  text-align: center;
+}
+.footer{
+  padding-bottom: 5%;
+}
+.footer-info{
+  padding-top: 5px;
+}
+.icon{
+  margin-top: 5%;
+  padding: 5px;
+  font-size: 20px;
+}
